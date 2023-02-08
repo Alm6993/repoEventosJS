@@ -1,0 +1,142 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html {
+  font-size: 62, 5%;
+  font-family: "Monteserrat", sans-serif;
+  background-color: rgb(214, 221, 225);
+}
+
+body {
+}
+
+.nav__list {
+  list-style: none;
+  display: flex;
+}
+.nav__list,
+.nav__items {
+  margin: 4rem 0 0 1rem;
+  padding-right: 3rem;
+}
+.nav__list,
+.nav__items,
+.nav__link {
+  text-decoration: none;
+  text-transform: uppercase;
+  font-weight: 700;
+  font-size: 1.5;
+  color: rgb(255, 172, 0);
+}
+
+.nav__list {
+  display: flex;
+  justify-content: flex-end;
+  text-align: center;
+}
+
+.nav__link:hover {
+  opacity: 0.5;
+  color: rgb(255, 56, 54);
+}
+
+header {
+  background-color: rgb(214, 221, 225);
+  border-bottom: 5px solid rgb(232, 67, 37);
+  position: sticky;
+  top: 0;
+  display: flex;
+  align-items: baseline;
+  justify-content: flex-end;
+  align-items: center;
+  box-shadow: 5px 5px 5px rgba(2, 32, 51, 0.5);
+  margin-bottom: 2rem;
+}
+
+.card {
+  display: flex;
+  flex-direction: column;
+  padding: 1rem;
+  margin: 1rem;
+  /*background-image: linear-gradient(white, rgb(255, 56, 54));*/
+  border-top: 3px solid rgb(232, 67, 37);
+  box-shadow: 5px 5px 5px rgba(2, 32, 51, 0.5);
+  background-color: white;
+  border-radius: 2rem;
+}
+
+.titulo {
+  text-align: center;
+}
+
+h1,
+p {
+  color: rgb(232, 67, 37);
+}
+
+h1,
+h2 {
+  font-size: 1.5rem;
+}
+
+p {
+  font-size: 1rem;
+}
+
+h1,
+p,
+h2 {
+  margin: 1rem 0 1rem 0;
+}
+
+h2 {
+  color: white;
+}
+
+img {
+  max-width: 100%;
+  border-radius: 2rem;
+}
+
+strong {
+  font-style: italic;
+  font-size: 2rem;
+  color: white;
+  text-shadow: 1px 1px 1x #000000;
+  text-align: right;
+}
+
+section {
+  display: flex;
+  justify-content: center;
+}
+
+.container {
+  height: 80vh;
+}
+
+.footer {
+  background-color: white;
+  padding: 1rem;
+  text-align: center;
+  font-size: 1rem;
+  font-weight: 500;
+  color: #1c1a37;
+}
+
+.carrito {
+  display: flex;
+  flex-direction: row;
+}
+.icon {
+  width: 9%;
+  margin-left: 2rem;
+  border: none;
+}
+
+.icon2 {
+  width: 10%;
+}
